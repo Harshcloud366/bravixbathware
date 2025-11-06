@@ -33,22 +33,22 @@ const Header = () => {
           {/* ✅ Mobile View - Single Row: Phone Left, Email Right */}
           <div className="d-flex justify-content-between w-100 d-md-none">
             <span>
-              📞 <strong> +91 7772000092</strong>
+              📞 <strong>+91 98765 43210</strong>
             </span>
             <span>
-              ✉️ <strong>bravixbathware@gmail.com</strong>
+              ✉️ <strong>support@bravix.com</strong>
             </span>
           </div>
 
           {/* Desktop View */}
           <div className="d-none d-md-flex align-items-center justify-content-between w-100">
             <div>
-              📞 <strong> +91 7772000092</strong>
-              <span className="mx-3">|</span> ✉️ bravixbathware@gmail.com
+              📞 <strong>+91 98765 43210</strong>
+              <span className="mx-3">|</span> ✉️ support@bravix.com
             </div>
             <div>
-              A Signature of <strong> Style </strong> and <strong> Strength </strong>
-              
+              Free metro delivery | <strong>Sign Up</strong> for ₹200 off your
+              first order!
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Header = () => {
           <img
             src={logo}
             alt="Bravix Logo"
-            style={{ width: "140px", height: "70px" }}
+            style={{ width: "115px", height: "auto" }}
           />
         </div>
 
@@ -194,6 +194,7 @@ const Header = () => {
 };
 
 export default Header;
+
 
 
 
