@@ -49,7 +49,24 @@ const HomeProducts = () => {
                 style={{ height: "320px", cursor: "pointer" }}
                 onClick={() => navigate(item.link)} // ✅ click action
               >
-              
+              <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-100 h-100"
+                  style={{
+                    objectFit: "cover",
+                    filter: "brightness(0.85)",
+                    transition: "transform 0.5s ease, filter 0.5s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "scale(1.07)";
+                    e.currentTarget.style.filter = "brightness(0.7)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "scale(1)";
+                    e.currentTarget.style.filter = "brightness(0.85)";
+                  }}
+                />
                 <div
                   className="position-absolute bottom-0 start-0 w-100 text-white p-3"
                   style={{
