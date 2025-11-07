@@ -2,12 +2,12 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom"; // ✅ only if using React Router
-import Aura from "../../image/homeproducts/aura.JPG";
-import Edge from "../../image/homeproducts/edge.JPG";
-import Nova from "../../image/homeproducts/nova.JPG";
-import Velvera from "../../image/homeproducts/velvera.JPG";
-import ShelfCorners from "../../image/homeproducts/shelf.png";
-import Khuti from "../../image/homeproducts/khutti.JPG";
+import Aura from "../../image/homeproducts/aura.webp";
+import Edge from "../../image/homeproducts/edge.webp";
+import Nova from "../../image/homeproducts/nova.webp";
+import Velvera from "../../image/homeproducts/velvera.webp";
+import ShelfCorners from "../../image/homeproducts/shelf.webp";
+import Khuti from "../../image/homeproducts/khutti.webp";
 
 const HomeProducts = () => {
   const navigate = useNavigate(); // ✅ for programmatic navigation
@@ -49,24 +49,7 @@ const HomeProducts = () => {
                 style={{ height: "320px", cursor: "pointer" }}
                 onClick={() => navigate(item.link)} // ✅ click action
               >
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="w-100 h-100"
-                  style={{
-                    objectFit: "cover",
-                    filter: "brightness(0.85)",
-                    transition: "transform 0.5s ease, filter 0.5s ease",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "scale(1.07)";
-                    e.currentTarget.style.filter = "brightness(0.7)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "scale(1)";
-                    e.currentTarget.style.filter = "brightness(0.85)";
-                  }}
-                />
+              
                 <div
                   className="position-absolute bottom-0 start-0 w-100 text-white p-3"
                   style={{

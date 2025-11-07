@@ -3,18 +3,18 @@ import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // ✅ Import static images
-import v1 from "../../image/featuredproducts/v1.JPG";
-import v2 from "../../image/featuredproducts/v2.JPG";
-import v3 from "../../image/featuredproducts/v3.JPG";
-import v4 from "../../image/featuredproducts/v4.JPG";
-import v5 from "../../image/featuredproducts/v5.JPG";
-import v6 from "../../image/featuredproducts/v6.JPG";
-import v7 from "../../image/featuredproducts/v7.JPG";
-import v8 from "../../image/featuredproducts/v8.JPG";
-import v9 from "../../image/featuredproducts/v9.png";
-import v10 from "../../image/featuredproducts/v10.png";
-import v11 from "../../image/featuredproducts/v11.png";
-import v12 from "../../image/featuredproducts/v12.png";
+import v1 from "../../image/featuredproducts/v1.webp";
+import v2 from "../../image/featuredproducts/v2.webp";
+import v3 from "../../image/featuredproducts/v3.webp";
+import v4 from "../../image/featuredproducts/v4.webp";
+import v5 from "../../image/featuredproducts/v5.webp";
+import v6 from "../../image/featuredproducts/v6.webp";
+import v7 from "../../image/featuredproducts/v7.webp";
+import v8 from "../../image/featuredproducts/v8.webp";
+import v9 from "../../image/featuredproducts/v9.webp";
+import v10 from "../../image/featuredproducts/v10.webp";
+import v11 from "../../image/featuredproducts/v11.webp";
+import v12 from "../../image/featuredproducts/v12.webp";
 
 const FeaturedProducts = () => {
   const products = [
