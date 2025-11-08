@@ -33,18 +33,18 @@ const Header = () => {
           {/* ✅ Mobile View - Single Row: Phone Left, Email Right */}
           <div className="d-flex justify-content-between w-100 d-md-none">
             <span>
-              📞 <strong>+91 98765 43210</strong>
+              📞 <strong>+91 7772000092</strong>
             </span>
             <span>
-              ✉️ <strong>support@bravix.com</strong>
+              ✉️ <strong>bravixbathware@gmail.com</strong>
             </span>
           </div>
 
           {/* Desktop View */}
           <div className="d-none d-md-flex align-items-center justify-content-between w-100">
             <div>
-              📞 <strong>+91 98765 43210</strong>
-              <span className="mx-3">|</span> ✉️ support@bravix.com
+              📞 <strong>+91 7772000092</strong>
+              <span className="mx-3">|</span> ✉️ bravixbathware@gmail.com
             </div>
             <div>
               Free metro delivery | <strong>Sign Up</strong> for ₹200 off your
@@ -82,6 +82,7 @@ const Header = () => {
         <div className="flex-grow-1 d-flex justify-content-md-center justify-content-end">
           <img
             src={logo}
+            loading="lazy"
             alt="Bravix Logo"
             style={{ width: "115px", height: "auto" }}
           />

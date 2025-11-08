@@ -52,6 +52,7 @@ const HomeProducts = () => {
               <img
                   src={item.img}
                   alt={item.title}
+                  loading="lazy"
                   className="w-100 h-100"
                   style={{
                     objectFit: "cover",

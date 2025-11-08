@@ -13,12 +13,14 @@ const Features = () => {
       title: "Timeless Steel. Everyday Luxury.",
       desc: "Discover the SS-304 Series — crafted from premium stainless steel for unmatched shine and durability.",
       img: b1,
+      loading:"lazy",
       link: "/products/ss304",
     },
     {
       title: "Designed for Corners. Built for Space.",
       desc: "Introducing the SS-202 Shelf & Corner Range — a smart, space-saving collection designed for modern interiors.",
       img: b2,
+      loading:"lazy",
       link: "/products/ss202",
     },
   ];

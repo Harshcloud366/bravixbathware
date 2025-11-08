@@ -10,16 +10,19 @@ const Hero = () => {
   const slides = [
     {
       img: s1,
+      loading:"lazy",
       title: "Elevate Your Everyday.",
       desc: "Discover modern elegance and refined functionality, crafted to transform your bathroom into a personal sanctuary.",
     },
     {
       img: s2,
+      loading:"lazy",
       title: "Experience Your Daily Ritual.",
       desc: "Wrap yourself in softness with our premium towel series, designed for unparalleled comfort and style.",
     },
     {
       img: s3,
+      loading:"lazy",
       title: "Refine Your Grooming.",
       desc: "Upgrade your routine with our curated selection of essentials, blending form and function.",
     },

@@ -105,6 +105,7 @@ const FeaturedProducts = () => {
                         <img
                           src={hovered[item.id] ? item.img2 : item.img1}
                           alt={item.title}
+                          loading="lazy"
                           className="img-fluid mb-3"
                           style={{
                             width: "100%",

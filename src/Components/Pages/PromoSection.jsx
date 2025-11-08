@@ -14,6 +14,7 @@ const PromoSection = () => {
       {/* Background Image */}
       <img
         src={bannerImg}
+        loading="lazy"
         alt="Banner Background"
         className="w-100 h-100 position-absolute top-0 start-0"
         style={{

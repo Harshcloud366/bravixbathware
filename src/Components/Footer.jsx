@@ -19,6 +19,7 @@ const Footer = () => {
           <div className="col-12 col-md-4">
             <img
               src={b1}
+              loading="lazy"
               alt="Bravix Logo"
               className="mb-3"
               style={{ maxWidth: "150px" }}
