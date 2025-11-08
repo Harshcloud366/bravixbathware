@@ -20,39 +20,38 @@ const Header = () => {
 
   return (
     <>
-      {/* 🔹 Top Info Bar */}
-      <div
-        className="d-flex justify-content-between align-items-center flex-wrap px-3 px-md-5 py-2 text-white"
-        style={{
-          background: "#008080",
-          fontSize: "13px",
-          letterSpacing: "0.4px",
-        }}
-      >
-        <div className="d-flex justify-content-between w-100 w-md-auto">
-          {/* ✅ Mobile View - Single Row: Phone Left, Email Right */}
-          <div className="d-flex justify-content-between w-100 d-md-none">
-            <span>
-              📞 <strong>+91 7772000092</strong>
-            </span>
-            <span>
-              ✉️ <strong>bravixbathware@gmail.com</strong>
-            </span>
-          </div>
+     {/* 🔹 Top Info Bar */}
+{/* 🔹 Top Info Bar */}
+<div
+  className="d-flex justify-content-between align-items-center px-3 px-md-5 py-2 text-white flex-nowrap"
+  style={{
+    background: "#008080",
+    fontSize: "11px",
+    letterSpacing: "0.4px",
+    whiteSpace: "nowrap",
+    overflowX: "auto",
+  }}
+>
+  {/* ✅ Mobile & Desktop Together */}
+  <div className="d-flex align-items-center justify-content-between w-100 flex-wrap flex-md-nowrap">
+    <div className="d-flex align-items-center flex-nowrap">
+      📞 <strong className="">+91 7772000092</strong>
+      <span className="mx-2 d-none d-md-inline">|</span>
+      <span className="ms-3">
+        ✉️ <strong>bravixbathware@gmail.com</strong>
+      </span>
+    </div>
 
-          {/* Desktop View */}
-          <div className="d-none d-md-flex align-items-center justify-content-between w-100">
-            <div>
-              📞 <strong>+91 7772000092</strong>
-              <span className="mx-3">|</span> ✉️ bravixbathware@gmail.com
-            </div>
-            <div>
-              Free metro delivery | <strong>Sign Up</strong> for ₹200 off your
-              first order!
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="d-none d-md-block">
+      Free metro delivery | <strong>Sign Up</strong> for ₹200 off your first order!
+    </div>
+  </div>
+</div>
+
+
+
+
+
 
       {/* 🔹 Compact White Navbar */}
       <header

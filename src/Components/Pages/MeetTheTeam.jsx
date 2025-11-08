@@ -10,18 +10,19 @@ const MeetTheTeam = () => {
   const team = [
     {
       id: 1,
-      name: "Nihal Nawal",
-      role: "Director",
-      img: nihal,
-      linkedin: "https://linkedin.com/in/nihal",
-    },
-    {
-      id: 2,
       name: "Aditya Bangar",
       role: "Director",
       img: aditya,
       linkedin: "https://linkedin.com/in/aditya",
     },
+    {
+      id: 2,
+      name: "Nihal Nawal",
+      role: "Director",
+      img: nihal,
+      linkedin: "https://linkedin.com/in/nihal",
+    },
+    
   ];
 
   return (

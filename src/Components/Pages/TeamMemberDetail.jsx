@@ -10,20 +10,6 @@ import bgImage from "../../img/banner/b2.jpg"; // ← your background image
 const teamMembers = [
   {
     id: 1,
-    name: "Nihal Nawal",
-    designation: "Director",
-    img: nihal,
-    linkedin: "#",
-    about:
-      "Guided by a passion for product excellence and process discipline, Nihal Nawal oversees operations, manufacturing, and supply chain management at Bravix Bathware. His strategic focus ensures that every product reflects precision engineering and uncompromising quality standards. Nihal’s commitment to innovation and efficiency has positioned Bravix as a benchmark for reliability in the bathware industry.",
-    achievements: [
-      "Spearheaded automation in the production line, improving efficiency by 30%.",
-      "Strengthened the vendor and logistics network, ensuring timely delivery across India.",
-      "Consistently upheld ISO-grade quality control in all manufacturing units.",
-    ],
-  },
-  {
-    id: 2,
     name: "Aditya Bangar",
     designation: "Director",
     img: aditya,
@@ -36,6 +22,21 @@ const teamMembers = [
       "Pioneered customer experience programs that enhanced client satisfaction and retention.",
     ],
   },
+  {
+    id: 2,
+    name: "Nihal Nawal",
+    designation: "Director",
+    img: nihal,
+    linkedin: "#",
+    about:
+      "Guided by a passion for product excellence and process discipline, Nihal Nawal oversees operations, manufacturing, and supply chain management at Bravix Bathware. His strategic focus ensures that every product reflects precision engineering and uncompromising quality standards. Nihal’s commitment to innovation and efficiency has positioned Bravix as a benchmark for reliability in the bathware industry.",
+    achievements: [
+      "Spearheaded automation in the production line, improving efficiency by 30%.",
+      "Strengthened the vendor and logistics network, ensuring timely delivery across India.",
+      "Consistently upheld ISO-grade quality control in all manufacturing units.",
+    ],
+  },
+  
 ];
 
 const TeamMemberDetail = () => {
